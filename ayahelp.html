@@ -1,0 +1,903 @@
+<!DOCTYPE html>
+
+<head>
+	<title>彩彩功能表</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" Content="机器人功能指令说明">
+	<link rel="stylesheet" href="https://cdn.bootcdn.net/ajax/libs/github-markdown-css/3.0.1/github-markdown.min.css">
+	<meta http-equiv="pragma" content="no-cache">
+	<meta http-equiv="Cache-Control" content="no-store,must-revalidate">
+	<meta http-equiv="expires" content="0">
+	<style>
+		* {
+			margin: 0 auto;
+		}
+
+		h1,
+		h2,
+		th {
+			color: #E671B8;
+			font-weight: 600;
+		}
+
+		.head {
+			color: #E671B8;
+		}
+
+		.markdown-body {
+			box-sizing: border-box;
+			min-width: 200px;
+			max-width: 980px;
+			margin: 0 auto;
+			padding: 45px;
+		}
+
+		@media (max-width: 767px) {
+			.markdown-body {
+				padding: 15px;
+			}
+		}
+
+		.footnote {
+			color: red;
+		}
+
+		.bg {
+			zoom: 1;
+			background: url(https://bestdori.com/assets/en/characters/resourceset/res016019_rip/card_after_training.png) no-repeat fixed;
+			background-size: cover;
+			background-position: center -50px -50px;
+			-webkit-background-size: cover;
+			-o-background-size: cover;
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.bgalpha {
+			background: rgba(255, 255, 255, 0.2);
+			overflow: hidden;
+			width: 100%;
+		}
+
+		.cover::before {
+			background: rgb(255, 255, 255, 0.75);
+			top: 0;
+			right: 0;
+			bottom: 0;
+			left: 0;
+			position: absolute;
+			content: '';
+			-webkit-filter: blur(10px);
+			-moz-filter: blur(10px);
+			-ms-filter: blur(10px);
+			filter: blur(10px);
+			width: 100%;
+		}
+
+		.cover {
+			position: relative;
+			overflow: hidden;
+			padding: 10px;
+			width: 100%;
+		}
+
+		.cover #naiyou {
+			position: relative;
+		}
+	</style>
+
+</head>
+
+<script type="text/javascript">
+	function show_date_time() {
+		window.setTimeout("show_date_time()", 1000);
+		BirthDay = new Date("05/10/2020");
+		today = new Date();
+		timeold = (today.getTime() - BirthDay.getTime());
+		sectimeold = timeold / 1000
+		secondsold = Math.floor(sectimeold);
+		msPerDay = 24 * 60 * 60 * 1000
+		e_daysold = timeold / msPerDay
+		daysold = Math.floor(e_daysold);
+		e_hrsold = (daysold - e_daysold) * -24;
+		hrsold = Math.floor(e_hrsold);
+		e_minsold = (hrsold - e_hrsold) * -60;
+		minsold = Math.floor((hrsold - e_hrsold) * -60);
+		seconds = Math.floor((minsold - e_minsold) * -60);
+		time.innerHTML = 'Aya已为您服务' + daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+		// + seconds + "秒"
+	}
+	show_date_time()
+</script>
+
+<body>
+	<div class="bg">
+		<div class="bgalpha">
+			<div class="markdown-body">
+				<div class="cover">
+					<div id="naiyou">
+						<h1>Aya是什么？</h1>
+						<p>欢迎您使用Aya！Aya是基于Go-cqhttp框架，依靠阿里云提供稳定服务的，针对公主连结简体字版特化的即时通讯机器人，提供群管理、游戏助手、便利工具、娱乐工具等智能功能。Aya的形象来源于BanG Dream!
+							Project的丸山彩(Maruyama
+							Aya)。本bot仅由<a href="tencent://Message/?Uin=2423116072&websiteName=www.oicqzone.com&Menu=yes">个人</a>维护，如需功能实现请私聊并提供开源的社区项目地址。</p>
+						<p id="time" style="color: #11a4ff; font-weight: bold;type"></p>
+						<h1>Aya酱功能列表</h1>
+						<p>无关键词表示是被动技能；有关键词即为代表指令。</p>
+						<p>尖括号表示参数任取；方括号表示参数可以省略。</p>
+						<p>电脑端可以使用<code>ctrl+F</code>，手机端使用<code>页面内查找</code>来快速查找。</p>
+						<p class="head">您也可以在此快速跳转：</h5><br>
+							<a href="#query">查询类功能</a><br>
+							<a href="#entertain">娱乐类功能</a><br>
+							<a href="#clanba">公会战附加功能</a><br>
+							<a href="#yobot">公会战核心功能</a></p>
+
+
+						<h2>功能开关</h2>
+						<table>
+							<tr>
+								<td class="head">lssv</td>
+								<td>查看本群服务</td>
+							</tr>
+							<tr>
+								<td class="head">启用 服务名</td>
+								<td>启用某一个lssv中的服务</td>
+							</tr>
+							<tr>
+								<td class="head">禁用 服务名</td>
+								<td>禁用某一个lssv中的服务</td>
+							</tr>
+							<tr>
+								<td class="head">反馈bot问题</td>
+								<td>来杯咖啡+内容</td>
+							</tr>
+							<tr>
+								<td class="head">续费bot</td>
+								<td>充值+空格+卡密<br><a href="http://api.brhsm.cn/qqlt.php?qq=2423116072">私聊我</a>可以购买卡密</td>
+							</tr>
+						</table>
+					</div>
+				</div>
+				<br>
+				<div class="cover">
+					<div id="naiyou">
+						<h2><a name="query"></a>查询类功能</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>功能</th>
+									<th>关键词</th>
+									<th>备注</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="head" rowspan="2">搜索图片来源</td>
+									<td>@bot并发送图片</td>
+									<td></td>
+
+								</tr>
+								<tr>
+									<td>以图搜图</td>
+									<td></td>
+
+
+								</tr>
+								<tr>
+									<td class="head">bili链接解析</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">无损音乐搜索</td>
+									<td>搜无损+曲名</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">挖矿计算</td>
+									<td>挖矿+名次</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">Rank表</td>
+									<td>&lt;B，台&gt;rank</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="3">问答</td>
+									<td>大家说AAA回答BBB[图片]</td>
+									<td>所有人都可以查看</td>
+								</tr>
+								<tr>
+									<td>我说AAA回答BBB[图片]</td>
+									<td>只有设置问题的人可以查看</td>
+								</tr>
+								<tr>
+									<td>不要回答XXX</td>
+									<td>删除自己设定的问答</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="5">PCR日历</td>
+									<td>日历</td>
+									<td>查看设置的服务器日历</td>
+								</tr>
+								<tr>
+									<td>[国日台]服日历</td>
+									<td>查看对应的服务器日历</td>
+								</tr>
+								<tr>
+									<td>[国日台]服日历 &lt;on/off&gt;</td>
+									<td>订阅或取消订阅对应服务日历</td>
+								</tr>
+								<tr>
+									<td>日历 time HH:MM</td>
+									<td>设置订阅日历的推送时间。<br>例如：日历 time 08:00</td>
+								</tr>
+								<tr>
+									<td>日历 status</td>
+									<td>查看本群日历状态</td>
+								</tr>
+								<tr>
+									<td class="head">角色别称</td>
+									<td>谁是水电</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">机翻</td>
+									<td>翻译+内容</td>
+									<td>换成有道翻译了换成有道翻译了换成有道翻译了<br>应该没有bug了</td>
+								</tr>
+								<tr>
+									<td class="head">竞技场查询</td>
+									<td>怎么打abcde</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">竞技场名次查询与订阅</td>
+									<td></td>
+									<td>jjc查询</td>
+								</tr>
+								<tr>
+									<td class="head">bilispider</td>
+									<td>添加B站爬虫<br>查看B站爬虫<br>删除B站爬虫</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">邦邦国服分数线查询</td>
+									<td>ycx+空格+100/1000/2000</td>
+									<td>茨菇Rinko同款~</td>
+								</tr>
+								<tr>
+									<td class="head">邦邦国服车牌查询</td>
+									<td>ycm</td>
+									<td>茨菇同款，但只能查到公开的车牌。待咕</td>
+								</tr>
+								<tr>
+									<td class="head">邦邦国服车牌推送</td>
+									<td>开启通知</td>
+									<td>冲榜小助手（
+默认禁用，需发送以下指令来开启：
+1.“启用 车站推送”--启用该服务
+2.“开启通知”--开启往本群推送车牌</td>
+								</tr>
+								<tr>
+									<td class="head">防撤回</td>
+									<td></td>
+									<td>默认禁用，如需要请“启用 防撤回”</td>
+								</tr>
+								<tr>
+									<td class="head">新闻推送</td>
+									<td></td>
+									<td>可使用<code>&lt;B，台&gt;服新闻</code>查看最近新闻</td>
+								</tr>
+								<tr>
+									<td class="head">漫画推送</td>
+									<td></td>
+									<td>看不懂也没关系</td>
+								</tr>
+
+								<tr>
+									<td class="head">买药提醒</td>
+									<td></td>
+									<td></td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<br>
+				<div class="cover">
+					<div id="naiyou">
+						<h2><a name="entertain"></a>娱乐类功能</h2>
+						<table>
+							<thead>
+								<tr>
+									<th>功能</th>
+									<th>关键词</th>
+									<th>备注</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="head" rowspan="2">骰子</td>
+									<td>.r</td>
+									<td>roll100点</td>
+								</tr>
+								<tr>
+									<td>.r<code>a</code>d<code>b</code></td>
+									<td>rolla个b点</td>
+								</tr>
+								<tr>
+									<td class="head">反暴力</td>
+									<td>彩彩&lt;爬，kkp，憨批&gt;</td>
+									<td>彩彩会记仇哦</td>
+								</tr>
+								<tr>
+									<td class="head">原谅</td>
+									<td>彩彩对不起</td>
+									<td>不小心骂了彩彩使用</td>
+								</tr>
+
+								<tr>
+									<td class="head" rowspan="2">禁言套餐</td>
+									<td>精致睡眠</td>
+									<td>8个小时的睡眠，一定要实现啊</td>
+								</tr>
+								<tr>
+									<td>来份XX&lt;茶，套餐&gt;</td>
+									<td>是什么样的套餐呢</td>
+								</tr>
+								<tr>
+									<td class="head">模拟抽卡</td>
+									<td>彩彩&lt;来一井，十连，单抽&gt;</td>
+									<td></td>
+								</tr>
+
+
+								<tr>
+									<td class="head" rowspan="2">切噜语互译</td>
+									<td>切噜一下+内容</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>切噜语</td>
+									<td>例如：切噜～♪切卟巴噜铃拉巴巴噼</td>
+								</tr>
+								<tr>
+									<td class="head">可可萝印章</td>
+									<td>彩彩签到</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">本地涩图</td>
+									<td>&lt;铜，本地涩图&gt;</td>
+									<td>有300多张，需要加入自己图库请联系我</td>
+								</tr>
+								<tr>
+									<td class="head">龙图</td>
+									<td>&lt;龙图，杀🐎，柠檬水露&gt;</td>
+									<td>彩彩会屠龙</td>
+								</tr>
+								<tr>
+									<td class="head">猫猫图</td>
+									<td>猫猫图</td>
+									<td>全是动图所以发的比较慢</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="3">邦邦模拟抽卡</td>
+									<td>邦邦十连&lt;+空格+卡池编号&gt;</td>
+									<td>卡池内容为截至150期卡池</td>
+								</tr>
+								<tr>
+									<td>邦邦天井&lt;+空格+卡池编号&gt;</td>
+									<td>300抽</td>
+								</tr>
+								<tr>
+									<td>查询邦邦卡池+空格+卡池编号</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="3">明日方舟模拟抽卡</td>
+									<td>彩彩方舟十连</td>
+									<td>*我不玩方舟，通常不会更新</td>
+								</tr>
+								<tr>
+									<td>彩彩方舟来一井</td>
+									<td>300抽</td>
+								</tr>
+								<tr>
+									<td>切换方舟卡池</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">假消息</td>
+									<td>假消息 @用户 名字 消息</td>
+									<td>@用户可以直接替换成QQ号，多条消息用回车分割，勿滥用</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="30">原神<br>
+										<p style="color: #000000;">*我不玩原神，此功能不会及时更新</p>
+									</td>
+									<td align="left">原神帮助</td>
+									<td align="left">查看插件的帮助</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2">原神抽卡指令</td>
+								</tr>
+								<tr>
+									<td align="left">相遇之缘</td>
+									<td align="left">10连抽卡</td>
+								</tr>
+								<tr>
+									<td align="left">纠缠之缘</td>
+									<td align="left">90连抽卡</td>
+								</tr>
+								<tr>
+									<td align="left">原之井</td>
+									<td align="left">180连抽卡</td>
+								</tr>
+								<tr>
+									<td align="left">原神卡池</td>
+									<td align="left">查看当前UP池</td>
+								</tr>
+								<tr>
+									<td align="left">原神卡池切换</td>
+									<td align="left">切换其他原神卡池</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2">原神丘丘语翻译指令</td>
+								</tr>
+								<tr>
+									<td align="left">丘丘一下 丘丘语句</td>
+									<td align="left">翻译丘丘语,注意这个翻译只能把丘丘语翻译成中文，不能反向</td>
+								</tr>
+								<tr>
+									<td align="left">丘丘词典 丘丘语句</td>
+									<td align="left">查询丘丘语句的单词含义</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2">找神瞳指令</td>
+								</tr>
+								<tr>
+									<td align="left">找风神瞳 &lt;神瞳编号&gt;</td>
+									<td align="left">让机器人发送风神瞳的位置，神瞳编号为可选参数，不写编号机器人会随机一个编号，风可以换成岩来找岩神瞳</td>
+								</tr>
+								<tr>
+									<td align="left">找到神瞳了 &lt;神瞳编号&gt;</td>
+									<td align="left">让机器人记录这个神瞳编号，以后机器人不会给你发送这个编号</td>
+								</tr>
+								<tr>
+									<td align="left">彩彩删除找到神瞳 &lt;神瞳编号&gt;</td>
+									<td align="left">在你已经找到的神瞳记录里删除这个编号</td>
+								</tr>
+								<tr>
+									<td align="left">彩彩重置风神瞳找到记录</td>
+									<td align="left">删除所有风神瞳的找到记录，这个指令会有二次确认，风可以换成岩来重置岩神瞳的记录</td>
+								</tr>
+								<tr>
+									<td align="left">彩彩找到多少神瞳了</td>
+									<td align="left">查看当前你找到多少神瞳了</td>
+								</tr>
+								<tr>
+									<td align="left">彩彩没找到的风神瞳</td>
+									<td align="left">查看没有找到的风神瞳地图位置和编号</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2">资源位置查询指令</td>
+								</tr>
+								<tr>
+									<td align="left">XXX哪里有</td>
+									<td align="left">查询XXX的位置图，XXX是资源的名字</td>
+								</tr>
+								<tr>
+									<td align="left">原神资源列表</td>
+									<td align="left">查询所有的资源名称</td>
+								</tr>
+								<tr>
+									<td align="center" colspan="2">圣遗物收集指令</td>
+								</tr>
+								<tr>
+									<td align="left">原神副本</td>
+									<td align="left">查询当前有哪些副本，掉落哪个套装</td>
+								</tr>
+								<tr>
+									<td align="left">刷副本 副本名称</td>
+									<td align="left">刷一次副本，可获得狗粮点数和圣遗物</td>
+								</tr>
+								<tr>
+									<td align="left">查看圣遗物仓库 1</td>
+									<td align="left">查询仓库第一页有哪些圣遗物</td>
+								</tr>
+								<tr>
+									<td align="left">强化圣遗物10级 5</td>
+									<td align="left">把仓库编号为5的圣遗物强化10级</td>
+								</tr>
+								<tr>
+									<td align="left">圣遗物洗点 5</td>
+									<td align="left">把仓库编号为5的圣遗物洗点，洗点后返还50%的强化点数，强化等级降为0，全属性重新随机</td>
+								</tr>
+								<tr>
+									<td align="left">圣遗物详情 5</td>
+									<td align="left">查看圣遗物详情</td>
+								</tr>
+								<tr>
+									<td align="left">转换狗粮 5</td>
+									<td align="left">把仓库编号为5的圣遗物销毁转化为狗粮，会返还80%狗粮点数</td>
+								</tr>
+								<tr>
+									<td align="left">查看体力值</td>
+									<td align="left">查看自己体力值</td>
+								</tr>
+								<tr>
+									<td align="left">氪体力 @群友</td>
+									<td align="left">给群友氪体力，这个命令只有机器人管理员才能执行</td>
+								</tr>
+								<tr>
+									<td class="head">PCR抽签</td>
+									<td>彩彩&lt;抽签，运势&gt;</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">猜角色游戏</td>
+									<td>猜角色</td>
+									<td>根据角色描述猜测角色名</td>
+								</tr>
+								<tr>
+									<td class="head">猜头像游戏</td>
+									<td>猜头像</td>
+									<td>根据角色头像的一部分猜角色名<br>偶尔会出现用于赛马的名次图标</td>
+								</tr>
+								<tr>
+									<td class="head">猜群友游戏</td>
+									<td>猜群友</td>
+									<td>根据群友头像的一部分猜群友</td>
+								</tr>
+								<tr>
+									<td class="head">猜cygames语音游戏</td>
+									<td>cygames</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">猜UB语音游戏</td>
+									<td>猜ub</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">猜FGO从者游戏</td>
+									<td>猜从者</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">猜FGO语音游戏</td>
+									<td>猜从者语音</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">PCR找头像游戏</td>
+									<td>找头像</td>
+									<td>正确答案的形式为"(x,y)"</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="7">PCR宝可梦游戏</td>
+									<td>使用<code>戳一戳</code>来游玩</td>
+									<td>一天上限3次</td>
+								</tr>
+								<tr>
+									<td>查看仓库[@某人]</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>合成[稀有]卡片1 卡片2</td>
+									<td>合成多余卡片获得随机卡片</td>
+								</tr>
+								<tr>
+									<td>一键合成[稀有]卡片1 卡片2 [合成轮数]</td>
+									<td>一键合成多余卡片获得随机卡片，使用一键合成时稀有卡片的获取率稍低</td>
+								</tr>
+								<tr>
+									<td>赠送 @用户 卡片名</td>
+									<td>可以赠送掉不需要的卡片</td>
+								</tr>
+								<tr>
+									<td>交换卡片1 @用户 卡片2</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>戳一戳图鉴</td>
+									<td>查询不认识的角色</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="15">PCR贵族决斗游戏</td>
+									<td>贵族帮助</td>
+									<td>查看游戏帮助</td>
+								</tr>
+								<tr>
+									<td>创建贵族</td>
+									<td>可以在本群创建自己的贵族，会被随机分配一个PCR女友</td>
+								</tr>
+								<tr>
+									<td>查询贵族</td>
+									<td>可以查询自己的贵族状态</td>
+								</tr>
+								<tr>
+									<td>贵族约会/招募女友</td>
+									<td>花费300金币招募一个女友，女友数不能超过爵位上限</td>
+								</tr>
+								<tr>
+									<td>分手+女友名字</td>
+									<td>花费100金币办理手续与其分手</td>
+								</tr>
+								<tr>
+									<td>升级贵族/升级爵位</td>
+									<td>花费金币提升自己的爵位,提升爵位时女友数需已达到上限</td>
+								</tr>
+								<tr>
+									<td>贵族决斗+@用户</td>
+									<td>向另一个贵族发起决斗，两个人必须都是贵族且已拥有女友，输者会随机被抢走一个女友</td>
+								</tr>
+								<tr>
+									<td>领金币 </td>
+									<td>在金币归零时领取50金币</td>
+								</tr>
+								<tr>
+									<td>查金币</td>
+									<td>可以查询自己现在的金币数</td>
+								</tr>
+								<tr>
+									<td>贵族签到</td>
+									<td>可以每天一次的领取金币</td>
+								</tr>
+								<tr>
+									<td>(权:机器人管理员)为xxxxx充值xx金币</td>
+									<td>可以为该用户充值金币。例如 为123456充值100金币</td>
+								</tr>
+								<tr>
+									<td>(权:机器人管理员)重置决斗</td>
+									<td>解锁决斗开关。(限管理员以上，这个仅用于决斗卡死无法再开的时候)</td>
+								</tr>
+								<tr>
+									<td>查女友+PCR角色名</td>
+									<td>查询某位pcr角色的归属</td>
+								</tr>
+								<tr>
+									<td>(权:群主)重置角色</td>
+									<td>现可以重置玩家的角色和金币，仅作必要(玩家退群)时使用</td>
+								</tr>
+								<tr>
+									<td>(权:群主)重置金币</td>
+									<td>现可以重置玩家的角色和金币，仅作必要(玩家退群)时使用</td>
+								</tr>
+								<tr>
+									<td class="head">xcw再骂我一次</td>
+									<td>&lt;xcw,镜华,小仓唯&gt;骂我</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="2">表情包生成</td>
+									<td>选图列表</td>
+									<td>别看holo</td>
+								</tr>
+								<tr>
+									<td>&lt;XXX.jpg，生成表情包XXX&gt;</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">有内鬼表情包生成</td>
+									<td>有内鬼+文字</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">人脸合成</td>
+									<td>换脸</td>
+									<td>阴间功能</td>
+								</tr>
+								<tr>
+									<td class="head">俄罗斯轮盘</td>
+									<td>"俄罗斯轮盘,扣扳机"</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">简易赛马</td>
+									<td>@bot+赛跑模拟<br>(另一个版本)赛跑开始</td>
+									<td>确实简易</td>
+								</tr>
+								<tr>
+									<td class="head">塔罗牌</td>
+									<td>@bot+塔罗牌</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">AI聊天</td>
+									<td>调整AI概率+数字(1-100)</td>
+									<td>使用<code>启用 人工智障</code>开启聊天<br>使用<code>禁用 人工智障</code>取消聊天</td>
+								</tr>
+								<tr>
+									<td class="head">网抑云语录</td>
+									<td>&lt;上号，生不出人&gt;</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="5">涩图</td>
+									<td>[来X份]涩图</td>
+									<td>一天上限20张；需r18请联系</td>
+								</tr>
+								<tr>
+									<td>本日涩图排行榜</td>
+									<td>需要启用r18</td>
+								</tr>
+								<tr>
+									<td>搜[X张]涩图 tag</td>
+									<td>启用r18后结果较多</td>
+								</tr>
+								<tr>
+									<td>看涩图 X(查看当日排行为X的图片)</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td>卡片涩图 &lt;on,off&gt;</td>
+									<td>更改涩图的展示方式</td>
+								</tr>
+								<tr>
+									<td class="head">点歌</td>
+									<td>点歌 Daydream Cafe</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">搓群友</td>
+									<td>搓@用户</td>
+									<td>新版手Q无法正常使用</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="2">海豹杀手</td>
+									<td>启用海豹杀手</td>
+									<td>启用后，如果在群里发pcr出货图会被熊掌击碎</td>
+								</tr>
+								<tr>
+									<td>禁用海豹杀手</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">倒放GIF</td>
+									<td>倒放+gif图片</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">随机复读</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">关键词回复</td>
+									<td></td>
+									<td>例如检测到“春黑”，会随机回复<code>春黑播放器</code><br><code>作业</code>也属于该功能</td>
+								</tr>
+								<tr>
+									<td class="head">反骑空士</td>
+									<td></td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">时报</td>
+									<td></td>
+									<td>未使用</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<br>
+				<div class="cover">
+					<div id="naiyou">
+						<h2><a name="clanba"></a>会战类附加功能</h2>
+						<table>
+							<thead>
+								<tr>
+									<th class="head">功能</th>
+									<th>关键词</th>
+									<th>备注</th>
+
+								</tr>
+							</thead>
+							<tbody>
+
+
+								<tr>
+									<td class="head">会战报告</td>
+									<td>生成会战报告[(权)@用户]</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="2">公会排名</td>
+									<td>公会排名</td>
+									<td>需要设置会长uid：绑定公会+uid</td>
+								</tr>
+								<tr>
+									<td>查询&lt;会长，排名，公会&gt;</td>
+									<td>例如：查询会长 丸山彩</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="2">挂树提醒</td>
+									<td>挂树</td>
+									<td>每10分钟提醒一次在树人数、最早挂树的人还剩多少时间</td>
+								</tr>
+								<tr>
+									<td>&lt;取消挂树，下树&gt;</td>
+									<td>尾刀、sl、报刀自动下树</td>
+								</tr>
+								<tr>
+									<td class="head">合刀计算</td>
+									<td>合刀计算 刀1伤害 刀2伤害 BOSS血量</td>
+									<td></td>
+								</tr>
+
+
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<br>
+				<div class="cover">
+					<div id="naiyou">
+						<h2><a name="yobot"></a>yobot功能（公会战核心功能）</h2>
+						<p>注：仅列举常用。全部yobot帮助请查看<a href="../help/">yobot帮助</a>。</p>
+						<p>注：如您是第一次使用公会战，可以参阅<a href="../manual">yobot公会战手册</a>。</p>
+						<table>
+							<thead>
+								<tr>
+									<th>功能</th>
+									<th>关键词</th>
+									<th>备注</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td class="head">公会战网页端</td>
+									<td>面板</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">报刀与撤销</td>
+									<td>报刀12345[@用户][昨日]<br>撤销</td>
+									<td>撤销仅能一刀一刀来</td>
+								</tr>
+								<tr>
+									<td class="head">尾刀</td>
+									<td>尾刀</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">记录SL</td>
+									<td>SL<br>SL?</td>
+									<td>可在面板查看全员sl情况</td>
+								</tr>
+								<tr>
+									<td class="head">预约boss</td>
+									<td>预约+数字</td>
+									<td></td>
+								</tr>
+								<tr>
+									<td class="head">自动报刀</td>
+									<td>cbi 状态</td>
+									<td>此为二号bot功能，因存在安全性问题和cookie过期问题不再开放</td>
+								</tr>
+							</tbody>
+						</table>
+					</div>
+				</div>
+				<br>
+				<div class="cover">
+
+
+					<div id="naiyou">
+						<h2>致谢</h2>
+						<p>本bot使用了以下开源或者非开源的项目或程序，在此表示感谢：<br>
+							<a href="https://github.com/Mrs4s/go-cqhttp/" target="_blank">GO-CQHTTP</a>、<a href="http://yobot.win/" target="_blank">yobot</a>、<a
+							 href="https://github.com/Ice-Cirno/HoshinoBot" target="_blank">HoshinoBot</a>、<a href="https://github.com/Tsuk1ko/CQ-picfinder-robot"
+							 target="_blank">CQ-picfinder-robot</a>、以及众多的Hoshino插件。</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
