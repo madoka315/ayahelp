@@ -117,13 +117,13 @@
 				<div class="cover">
 					<div id="naiyou">
 						<h1>Aya是什么？</h1>
-						<p>欢迎您使用Aya！Aya是基于Go-cqhttp框架，依靠阿里云提供稳定服务的，针对公主连结简体字版特化的即时通讯机器人，提供群管理、游戏助手、便利工具、娱乐工具等智能功能。Aya的形象来源于BanG Dream!
+						<p>欢迎您使用Aya！Aya是基于Go-cqhttp框架，由腾讯云(阿里云爬)提供稳定服务的，针对公主连结简体字版特化的即时通讯机器人，提供群管理、游戏助手、便利工具、娱乐工具等智能功能。Aya的形象来源于BanG Dream!
 							Project的丸山彩(Maruyama
 							Aya)。本bot仅由<a href="tencent://Message/?Uin=2423116072&websiteName=www.oicqzone.com&Menu=yes">个人</a>维护，如需功能实现请私聊并提供开源的社区项目地址。</p>
-						<p id="time" style="color: #11a4ff; font-weight: bold;type"></p>
+						<p id="time" style="color: #11a4ff; font-weight: bold;"></p>
 						<h1>Aya酱功能列表</h1>
 						<p>无关键词表示是被动技能；有关键词即为代表指令。</p>
-						<p>尖括号表示参数任取；方括号表示参数可以省略。</p>
+						<p><code>&lt;&gt;</code>表示参数任取；<code>[]</code>表示参数可以省略。</p>
 						<p>电脑端可以使用<code>ctrl+F</code>，手机端使用<code>页面内查找</code>来快速查找。</p>
 						<p class="head">您也可以在此快速跳转：</h5><br>
 							<a href="#manager">群管理</a><br>
@@ -153,7 +153,7 @@
 							</tr>
 							<tr>
 								<td class="head">续费bot</td>
-								<td>充值+空格+卡密<br><a href="http://api.brhsm.cn/qqlt.php?qq=2423116072">私聊我</a>可以购买卡密</td>
+								<td>充值+空格+卡密<br><a href="tencent://Message/?Uin=2423116072&websiteName=www.oicqzone.com&Menu=yes">私聊我</a>可以购买卡密</td>
 							</tr>
 						</table>
 						*请知悉，此bot大部分插件都是开源的，您的支付行为将被视作您对原创设计与功能、服务器开支、维护者本身和维护与售后行为的支持与赞助。
@@ -227,14 +227,25 @@
 								</tr>
 								<tr>
 									<td>以图搜图</td>
-									<td></td>
-
-
+									<td>此模式下可以连续发送图片进行搜索</td>
+								</tr>
+								<tr>
+									<td class="head" rowspan="3">定时提醒</td>
+									<td>--time=*/60;*/1;*;*;* [--origin] --rmd=阿巴阿巴</td>
+									<td>设置定时提醒 <br>--time= 后接crontab表达式（示例指令表示每小时提醒） <br>--rmd= 后接提醒内容，可为任意类型内容 <br>--origin 为转义选项</td>
+								</tr>
+								<tr>
+									<td>--rmd-list</td>
+									<td>查看已设置的定时提醒及其id</td>
+								</tr>
+								<tr>
+									<td>--rmd-del=233</td>
+									<td>删除id为233的定时提醒</td>
 								</tr>
 								<tr>
 									<td class="head">bili链接解析</td>
 									<td></td>
-									<td></td>
+									<td>解析视频；动态；直播间的链接</td>
 								</tr>
 								<tr>
 									<td class="head" rowspan="2">龙王查询</td>
@@ -248,7 +259,7 @@
 								<tr>
 									<td class="head">无损音乐搜索</td>
 									<td>搜无损+曲名</td>
-									<td></td>
+									<td>powered by acgjc</td>
 								</tr>
 								<tr>
 									<td class="head">日麻计算</td>
@@ -312,7 +323,7 @@
 								<tr>
 									<td class="head">竞技场查询</td>
 									<td>怎么打abcde</td>
-									<td></td>
+									<td>powered by pcrdfans</td>
 								</tr>
 								<tr>
 									<td class="head">竞技场名次查询与订阅</td>
@@ -320,23 +331,9 @@
 									<td></td>
 								</tr>
 								<tr>
-									<td class="head">原神信息查询</td>
-									<td>原神查询+uid</td>
-									<td>*需要公开的信息
-*第二次查询时可不加uid</td>
-								</tr>
-								<tr>
 									<td class="head">邦邦国服车牌查询</td>
 									<td>ycm</td>
-									<td></td>
-								</tr>
-								<tr>
-									<td class="head">邦邦国服车牌推送</td>
-									<td>开启通知</td>
-									<td>冲榜小助手（
-默认禁用，需发送以下指令来开启：
-1.“启用 车站推送”--启用该服务
-2.“开启通知”--开启往本群推送车牌</td>
+									<td>powered by bandoristation</td>
 								</tr>
 								<tr>
 									<td class="head">防撤回</td>
@@ -402,8 +399,8 @@
 									<td>8个小时的睡眠，一定要实现啊</td>
 								</tr>
 								<tr>
-									<td>来份XX&lt;下午茶，套餐&gt;</td>
-									<td>是什么样的套餐呢</td>
+									<td>来份XX&lt;下午茶套餐，套餐&gt;</td>
+									<td>是什么样的套餐呢(来份猫耳女仆彩彩下午茶套餐x)</td>
 								</tr>
 								<tr>
 									<td class="head">模拟抽卡</td>
@@ -437,9 +434,9 @@
 									<td>彩彩会屠龙</td>
 								</tr>
 								<tr>
-									<td class="head">猫猫图</td>
+									<td class="head">在线猫猫图</td>
 									<td>猫猫图</td>
-									<td>全是动图所以发的比较慢</td>
+									<td>期待下一张是可爱的猫猫吧</td>
 								</tr>
 								<tr>
 									<td class="head" rowspan="3">邦邦模拟抽卡</td>
