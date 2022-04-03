@@ -8,7 +8,7 @@ description: 此页介绍的指令用于QQ群管理
 
 <summary>开源地址</summary>
 
-
+[https://github.com/pcrbot/group-manager](https://github.com/pcrbot/group-manager)
 
 </details>
 
