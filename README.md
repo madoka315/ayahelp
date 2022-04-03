@@ -1,2 +1,2 @@
-# ayahelp
-自用bot帮助页
+# 欢迎使用Aya
+
