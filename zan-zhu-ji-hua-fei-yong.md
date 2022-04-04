@@ -7,7 +7,7 @@ description: 此页介绍了如何获得Aya以及费用详情
 {% hint style="warning" %}
 请知悉，此bot的大部分插件都是开源的，您的支付行为将被视作您对原创设计与功能、服务器开支、维护者本身和维护与售后行为的支持与赞助。
 
-如果你恰好有一台云服务器以及一定的学习能力，你也可以参照<mark style="color:orange;">致谢页</mark>和每个功能介绍前的<mark style="color:orange;">开源地址</mark>来自己搭建一个相似的bot（部分原创功能除外）。
+如果你恰好有一台云服务器以及一定的学习能力，你也可以参照<mark style="color:orange;">致谢页</mark>和每个功能介绍前的<mark style="color:orange;">开源地址</mark>来自己搭建一个相似的bot（如果没有开源地址，表示这是原创功能）。
 {% endhint %}
 
 {% hint style="success" %}
