@@ -8,8 +8,8 @@ Aya的形象来源于[BanG Dream! Project](https://zh.moegirl.org.cn/Bangdream)�
 
 你可以在左侧目录选择对应的帮助文档进行浏览。
 
-本bot仅由[个人](tencent://Message/?Uin=2423116072\&websiteName=www.oicqzone.com\&Menu=yes)维护，如需功能实现，请私聊我并提供开源的社区项目地址。
+本bot仅由个人维护，如需功能实现，请私聊我并提供开源的社区项目地址。
 
-Aya只是一个不为人知的小bot，我也不像别的dalao那么厉害。但她也像别的bot一样经历着各种风控、封号，已从2020年5月10日坚持工作至今。~~彩彩单推~~
+Aya只是一个不为人知的小bot，我也不像别的dalao那么厉害，但她也像别的bot一样经历着各种风控、封号。Aya已从2020年5月10日坚持工作至今。~~大家都是彩彩单推~~
 
 ![pid：69354679](.gitbook/assets/0OK5PYZ%8\)SICSOMB\~]NVIV.png)

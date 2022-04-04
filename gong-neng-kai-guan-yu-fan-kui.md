@@ -9,7 +9,7 @@ description: 此页介绍的指令用于控制bot的功能，和通过bot反馈�
 {% endhint %}
 
 {% hint style="info" %}
-除了通过bot的`来杯咖啡`反馈问题外，你也可以点击上方的”联系我“。
+除了通过bot的`来杯咖啡`反馈问题外，你也可以点击”[联系我](tencent://Message/?Uin=2423116072\&websiteName=www.oicqzone.com\&Menu=yes)“。
 {% endhint %}
 
 | 指令示例      | 功能说明          |

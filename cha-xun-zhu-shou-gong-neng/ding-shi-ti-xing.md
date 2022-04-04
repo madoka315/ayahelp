@@ -13,7 +13,7 @@
 {% endhint %}
 
 {% hint style="info" %}
-需要学会<mark style="color:blue;">cron表达式</mark>才可以方便地使用这个功能。可以[参考这里](https://www.cnblogs.com/yanghj010/p/10875151.html)。
+需要学会<mark style="color:blue;">crontab表达式</mark>才可以方便地使用这个功能。可以[参考这里](https://www.cnblogs.com/yanghj010/p/10875151.html)。
 {% endhint %}
 
 | 指令示例                                                                                                                                                                                                                                                                                                                                                                                  | 功能说明           | 备注                                                                                    |
