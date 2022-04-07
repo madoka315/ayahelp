@@ -23,6 +23,7 @@
   * [竞技场阵容查询](cha-xun-zhu-shou-gong-neng/jing-ji-chang-zhen-rong-cha-xun.md)
   * [竞技场名次订阅](cha-xun-zhu-shou-gong-neng/jing-ji-chang-ming-ci-ding-yue.md)
   * [角色别称](cha-xun-zhu-shou-gong-neng/jiao-se-bie-cheng.md)
+  * [查立绘](cha-xun-zhu-shou-gong-neng/cha-li-hui.md)
   * [Rank表查询](cha-xun-zhu-shou-gong-neng/rank-biao-cha-xun.md)
   * [PCR日历](cha-xun-zhu-shou-gong-neng/pcr-ri-li.md)
   * [邦邦车站查询](cha-xun-zhu-shou-gong-neng/bang-bang-che-zhan-cha-xun.md)
