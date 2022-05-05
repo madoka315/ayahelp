@@ -22,6 +22,7 @@
   * [竞技场路径计算](cha-xun-zhu-shou-gong-neng/jing-ji-chang-lu-jing-ji-suan.md)
   * [竞技场阵容查询](cha-xun-zhu-shou-gong-neng/jing-ji-chang-zhen-rong-cha-xun.md)
   * [竞技场名次订阅](cha-xun-zhu-shou-gong-neng/jing-ji-chang-ming-ci-ding-yue.md)
+  * [公会战作业](cha-xun-zhu-shou-gong-neng/gong-hui-zhan-zuo-ye.md)
   * [角色别称](cha-xun-zhu-shou-gong-neng/jiao-se-bie-cheng.md)
   * [查立绘](cha-xun-zhu-shou-gong-neng/cha-li-hui.md)
   * [Rank表查询](cha-xun-zhu-shou-gong-neng/rank-biao-cha-xun.md)
