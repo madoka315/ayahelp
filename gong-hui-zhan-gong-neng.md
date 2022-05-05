@@ -76,3 +76,9 @@ description: 此页介绍的指令用于PCR公会战功能
 | 查询分段                | 查询分段信息                       |                 |
 | 删除关注 _公会名_          | 删除指定的关注公会                    | 至少需要管理员         |
 | 清空关注                | 清空关注列表                       | 至少需要管理员         |
+
+### 公会战作业
+
+{% content-ref url="cha-xun-zhu-shou-gong-neng/gong-hui-zhan-zuo-ye.md" %}
+[gong-hui-zhan-zuo-ye.md](cha-xun-zhu-shou-gong-neng/gong-hui-zhan-zuo-ye.md)
+{% endcontent-ref %}
