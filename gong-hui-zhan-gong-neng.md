@@ -42,6 +42,8 @@ description: 此页介绍的指令用于PCR公会战功能
 
 公会战排名：[https://github.com/zyujs/clanbattle\_rank](https://github.com/zyujs/clanbattle\_rank)
 
+补偿轴计算器：[https://github.com/OREOCODEDEV/pcr\_time\_calculator](https://github.com/OREOCODEDEV/pcr\_time\_calculator)
+
 </details>
 
 ### 公会战报告
@@ -63,6 +65,14 @@ description: 此页介绍的指令用于PCR公会战功能
 | ------------------------------------ | ------------------------ | ------- |
 | 合刀计算 _刀1伤害_ _刀2伤害_ _BOSS血量_          | 计算合刀时每个人能返还多少补偿          |         |
 | 垫刀计算 _BOSS血量_ _当前伤害_ _当前显示秒数 目标补偿秒数_ | 计算某boss需要垫多少伤害才能达到目标补偿秒数 | 一般用于一穿二 |
+
+### **补偿轴计算**
+
+**该服务默认**<mark style="color:green;">**启用**</mark>
+
+| 指令示例                                                                                                                                                                                                                                      | 功能说明          |
+| ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------- |
+| <p>补偿轴 <em>返还时间</em> <em>时间1</em> <em>[时间2 ...]</em><br><em><mark style="background-color:red;">例：</mark></em><br><em><mark style="background-color:red;"></mark></em><mark style="background-color:red;">补偿轴 56 102 100 56 54</mark></p> | 计算返还时间下对应的时间轴 |
 
 ### 公会战排名
 

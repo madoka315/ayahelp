@@ -1,4 +1,4 @@
-# 欢迎使用Aya
+# 🎉 欢迎使用Aya
 
 {% hint style="success" %}
 欢迎您使用Aya！Aya是基于Go-cqhttp框架与Hoshino、Yobot、CQPF项目，由腾讯云(阿里云爬)提供稳定服务的，针对公主连结简体字版特化的即时通讯机器人，提供群管理、游戏助手、便利工具、娱乐工具等智能功能。

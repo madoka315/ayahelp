@@ -20,6 +20,8 @@ bili链接解析：[https://github.com/Tsuk1ko/cq-picsearcher-bot](https://githu
 
 买药提醒：[https://github.com/pcrbot/HoshinoBuyPotionReminder](https://github.com/pcrbot/HoshinoBuyPotionReminder)
 
+群员生日祝贺：[https://github.com/pcrbot/mem\_birthday](https://github.com/pcrbot/mem\_birthday)，基于开源内容进行修改
+
 </details>
 
 {% hint style="info" %}
@@ -37,3 +39,4 @@ bili链接解析：[https://github.com/Tsuk1ko/cq-picsearcher-bot](https://githu
 | 反骑空士     | 检测到碧蓝幻想官网时，进行阻止                                                                  | **该服务默认**<mark style="color:green;">**启用**</mark>          |
 | 关键词回复    | <p>例如检测到“春黑”，会随机回复<code>春黑播放器</code>；检测到“？”会随机回复表情包<br><code>作业</code>也属于该功能</p> | **该服务默认**<mark style="color:green;">**启用**</mark>          |
 | 关键词回复-怪话 | 自行探索有哪些怪话吧\~                                                                     | **该服务默认**<mark style="color:red;">**禁用**</mark>            |
+| 群员生日祝贺   | 当检测到群员生日时，会推送生日祝福                                                                | **该服务默认**<mark style="color:green;">**启用**</mark>          |

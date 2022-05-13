@@ -70,3 +70,5 @@
 | <今日材料,今日武器材料,今日角色材料> |    |
 {% endtab %}
 {% endtabs %}
+
+**原神日历见：**[#yuan-shen-ri-li](../cha-xun-zhu-shou-gong-neng/you-xi-ri-li-he-ji.md#yuan-shen-ri-li "mention")****
