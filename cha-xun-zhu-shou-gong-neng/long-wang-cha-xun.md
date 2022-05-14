@@ -8,10 +8,6 @@
 
 </details>
 
-{% hint style="info" %}
-`<>`表示参数任取；`[]`表示参数可以省略。
-{% endhint %}
-
 {% hint style="warning" %}
 这个功能可能会发生查不到龙王的情况，是由框架存在的一个[issue](https://github.com/Mrs4s/go-cqhttp/issues/593)导致。
 {% endhint %}

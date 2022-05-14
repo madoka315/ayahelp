@@ -10,10 +10,6 @@
 
 </details>
 
-{% hint style="info" %}
-`<>`表示参数任取；`[]`表示参数可以省略。
-{% endhint %}
-
 {% hint style="danger" %}
 不要添加违禁内容 否则可导致群被拉黑
 {% endhint %}

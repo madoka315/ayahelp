@@ -8,10 +8,6 @@
 
 </details>
 
-{% hint style="info" %}
-`<>`表示参数任取；`[]`表示参数可以省略。
-{% endhint %}
-
 #### 该服务总功能默认<mark style="color:green;">启用</mark>；马娘新闻、马娘生日推送默认<mark style="color:red;">禁用</mark>；可以分别开关各个功能
 
 群内使用`马娘帮助`查看总帮助。

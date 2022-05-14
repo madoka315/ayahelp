@@ -10,10 +10,6 @@ Hoshino的原生功能，现pcrdfans.com已不提供APIKEY
 
 </details>
 
-{% hint style="info" %}
-`<>`表示参数任取；`[]`表示参数可以省略。
-{% endhint %}
-
 #### 该服务默认<mark style="color:green;">启用</mark>
 
 | 指令示例        | 功能说明                                             |

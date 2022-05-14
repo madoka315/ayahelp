@@ -1,9 +1,5 @@
 # 竞技场路径计算
 
-{% hint style="info" %}
-`<>`表示参数任取；`[]`表示参数可以省略。
-{% endhint %}
-
 #### 该服务默认<mark style="color:green;">启用</mark>
 
 | 指令示例      | 功能说明            |
