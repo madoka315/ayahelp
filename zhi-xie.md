@@ -4,7 +4,7 @@
 
 * 干炸里脊资源站：[https://redive.estertion.win/](https://redive.estertion.win/sound/)
 * go-cqhttp：[https://github.com/Mrs4s/go-cqhttp](https://github.com/Mrs4s/go-cqhttp)
-* yobot：[http://yobot.win/](http://yobot.win)
+* yobot：[http://yobot.win/](http://yobot.win/)
 * HoshinoBot：[https://github.com/Ice-Cirno/HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)
 * cq-picsearcher-bot：[https://github.com/Tsuk1ko/cq-picsearcher-bot](https://github.com/Tsuk1ko/cq-picsearcher-bot)
 

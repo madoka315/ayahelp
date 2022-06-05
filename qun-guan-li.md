@@ -19,7 +19,7 @@ description: 此页介绍的指令用于QQ群管理
 {% hint style="warning" %}
 若有功能在你的群不可用，可能是由于近期发生管理员变动/群主变动/Gocq框架缓存问题，等待一段时间即可。&#x20;
 
-多个指令涉及群管操作，慎重将群主转移给Aya(可从[huifu.qq.com](https://huifu.qq.com)恢复群主)。如转移后可私聊我为你设置管理员。
+多个指令涉及群管操作，慎重将群主转移给Aya(可从[huifu.qq.com](https://huifu.qq.com/)恢复群主)。如转移后可私聊我为你设置管理员。
 {% endhint %}
 
 #### 该服务默认<mark style="color:green;">启用</mark>
