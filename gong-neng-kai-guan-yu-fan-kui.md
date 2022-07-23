@@ -6,7 +6,7 @@ description: 此页介绍的指令用于控制bot的功能，和通过bot反馈�
 
 {% hint style="info" %}
 除了通过bot的`来杯咖啡`反馈问题外，\
-你也可以点击”[联系我(电脑QQ)](tencent://message/?uin=2423116072\&Site=\&Menu=yes)/[联系我(手机QQ)](mqqwpa://im/chat?chat\_type=wpa\&uin=2423116072\&version=1)“。
+你也可以通过qq联系我。
 {% endhint %}
 
 {% hint style="info" %}
