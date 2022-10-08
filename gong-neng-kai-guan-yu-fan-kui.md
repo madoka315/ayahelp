@@ -17,6 +17,8 @@ description: 此页介绍的指令用于控制bot的功能，和通过bot反馈�
 ②如果你发现bot除了推送服务毫无反应，请检查是否过期了，参照：[zan-zhu-ji-hua-fei-yong.md](zan-zhu-ji-hua-fei-yong.md "mention")
 
 ③如果你发现bot只对一种功能毫无反应，请检查是否打开了该服务，参照下列指令
+
+如果莫名其妙没反应了，大概率被**风控**了，只能等待我通知和tx脸色
 {% endhint %}
 
 | 指令示例      | 功能说明          |

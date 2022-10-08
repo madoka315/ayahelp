@@ -55,6 +55,7 @@
   * [大头菜买卖](yu-le-you-xi-gong-neng/da-tou-cai-mai-mai.md)
   * [PCR赛跑](yu-le-you-xi-gong-neng/pcr-sai-pao.md)
   * [涩涩](yu-le-you-xi-gong-neng/se-se.md)
+  * [🧪 AI绘图](yu-le-you-xi-gong-neng/ai-hui-tu.md)
   * [表情包生成器合集](yu-le-you-xi-gong-neng/biao-qing-bao-sheng-cheng-qi-he-ji.md)
   * [人脸合成](yu-le-you-xi-gong-neng/ren-lian-he-cheng.md)
   * [接头霸王](yu-le-you-xi-gong-neng/jie-tou-ba-wang.md)
