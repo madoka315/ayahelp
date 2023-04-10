@@ -28,10 +28,10 @@
 {% endtab %}
 
 {% tab title="丘丘语" %}
-| 指令                                                                                                                                        | 说明                           |
-| ----------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| <p>丘丘一下 <em>语句</em><br><em></em><mark style="background-color:red;">例：</mark><br><mark style="background-color:red;">丘丘一下 mita</mark></p> | 翻译丘丘语,注意这个翻译只能把丘丘语翻译成中文，不能反向 |
-| 丘丘词典 _语句_                                                                                                                                 | 查询丘丘语句的单词含义                  |
+| 指令                                                                                                                               | 说明                           |
+| -------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
+| <p>丘丘一下 <em>语句</em><br><mark style="background-color:red;">例：</mark><br><mark style="background-color:red;">丘丘一下 mita</mark></p> | 翻译丘丘语,注意这个翻译只能把丘丘语翻译成中文，不能反向 |
+| 丘丘词典 _语句_                                                                                                                        | 查询丘丘语句的单词含义                  |
 {% endtab %}
 
 {% tab title="原神资源查询" %}
@@ -71,4 +71,4 @@
 {% endtab %}
 {% endtabs %}
 
-**原神日历见：**[#yuan-shen-ri-li](../cha-xun-zhu-shou-gong-neng/you-xi-ri-li-he-ji.md#yuan-shen-ri-li "mention")****
+**原神日历见：**[#yuan-shen-ri-li](../cha-xun-zhu-shou-gong-neng/you-xi-ri-li-he-ji.md#yuan-shen-ri-li "mention")

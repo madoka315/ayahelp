@@ -4,7 +4,8 @@
 
 <summary>开源地址</summary>
 
-[https://github.com/pcrbot/gacha](https://github.com/pcrbot/gacha)
+[https://github.com/pcrbot/gacha](https://github.com/pcrbot/gacha)\
+基于开源内容进行fix
 
 </details>
 
