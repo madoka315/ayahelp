@@ -7,5 +7,6 @@
 * yobot：[http://yobot.win/](http://yobot.win/)
 * HoshinoBot：[https://github.com/Ice-Cirno/HoshinoBot](https://github.com/Ice-Cirno/HoshinoBot)
 * cq-picsearcher-bot：[https://github.com/Tsuk1ko/cq-picsearcher-bot](https://github.com/Tsuk1ko/cq-picsearcher-bot)
+* yunzai：[https://gitee.com/Le-niao/Yunzai-Bot](https://gitee.com/Le-niao/Yunzai-Bot)
 
 同时感谢所有对Aya进行赞助的群。
