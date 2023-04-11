@@ -6,7 +6,17 @@
 
 [https://github.com/H-K-Y/Genshin\_Impact\_bot/](https://github.com/H-K-Y/Genshin\_Impact\_bot/)
 
+[https://gitee.com/Le-niao/Yunzai-Bot](https://gitee.com/Le-niao/Yunzai-Bot)
+
 </details>
+
+{% hint style="success" %}
+2023-4加入Yunzai\&Miao-plugin（云崽），提供更为便利广泛的原神功能。
+
+要使用Yunzai\&Miao-plugin，请使用`#帮助` `#喵喵帮助`。
+
+以下内容为原有的原神相关功能。
+{% endhint %}
 
 {% hint style="info" %}
 `<>`表示参数任取；`[]`表示参数可以省略。
@@ -14,10 +24,14 @@
 
 #### 该服务默认<mark style="color:green;">启用</mark>；可以分别开关各个功能
 
-群内使用`原神帮助`查看总帮助。
+群内使用`原神帮助`查看原有总帮助，使用`#帮助` `#喵喵帮助`查看Yunzai和喵喵的帮助。
 
 {% tabs %}
 {% tab title="抽卡" %}
+{% hint style="info" %}
+由于Yunzai表现效果更佳，该抽卡服务默认<mark style="color:red;">禁用</mark>
+{% endhint %}
+
 | 指令     | 说明      |
 | ------ | ------- |
 | 彩彩相遇之缘 | 10连抽卡   |
