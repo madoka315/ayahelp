@@ -21,6 +21,7 @@
   * [二维码识别](cha-xun-zhu-shou-gong-neng/er-wei-ma-shi-bie.md)
   * [倒放GIF](cha-xun-zhu-shou-gong-neng/dao-fang-gif.md)
   * [问答](cha-xun-zhu-shou-gong-neng/wen-da.md)
+  * [🧪 Chatgpt](cha-xun-zhu-shou-gong-neng/chatgpt.md)
   * [竞技场挖矿计算](cha-xun-zhu-shou-gong-neng/jing-ji-chang-wa-kuang-ji-suan.md)
   * [竞技场路径计算](cha-xun-zhu-shou-gong-neng/jing-ji-chang-lu-jing-ji-suan.md)
   * [竞技场阵容查询](cha-xun-zhu-shou-gong-neng/jing-ji-chang-zhen-rong-cha-xun.md)
