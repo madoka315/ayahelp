@@ -33,6 +33,12 @@ Aya使用2C4G的服务器来确保性能（虽然tx风控封号还是没啥办�
 | 试用3天 | 0 CNY                                                    |
 | 任意群聊 | 10 CNY/月<mark style="color:green;">（首次10 CNY/2个月）</mark> |
 
-![](.gitbook/assets/QQ图片20220723151112.jpg)
+<div align="left">
+
+<img src=".gitbook/assets/QQ图片20220723151112.jpg" alt="">
+
+</div>
 
 ~~如果不幸发生意外导致Aya无法继续维护，会在跑路前询问大家并退钱，大可放心。~~
+
+真跑路了，😔
