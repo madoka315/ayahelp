@@ -6,7 +6,7 @@
 Aya的形象来源于[BanG Dream! Project](https://zh.moegirl.org.cn/Bangdream)的丸山彩(Maruyama Aya)。
 {% endhint %}
 
-## 跑路了
+## 跑路了，此文档仅供自用参考
 
 <figure><img src=".gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 

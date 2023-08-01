@@ -45,6 +45,7 @@
   * [邦邦模拟抽卡](yu-le-you-xi-gong-neng/bang-bang-mo-ni-chou-ka.md)
   * [明日方舟相关](yu-le-you-xi-gong-neng/ming-ri-fang-zhou-xiang-guan.md)
   * [原神相关](yu-le-you-xi-gong-neng/yuan-shen-xiang-guan.md)
+  * [星穹铁道](yu-le-you-xi-gong-neng/xing-qiong-tie-dao.md)
   * [赛马娘相关](yu-le-you-xi-gong-neng/sai-ma-niang-xiang-guan.md)
   * [游戏王相关](yu-le-you-xi-gong-neng/you-xi-wang-xiang-guan.md)
   * [猜一猜小游戏合集](yu-le-you-xi-gong-neng/cai-yi-cai-xiao-you-xi-he-ji.md)
