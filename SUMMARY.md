@@ -53,7 +53,6 @@
   * [贵族决斗](yu-le-you-xi-gong-neng/gui-zu-jue-dou.md)
   * [俄罗斯轮盘](yu-le-you-xi-gong-neng/e-luo-si-lun-pan.md)
   * [大头菜买卖](yu-le-you-xi-gong-neng/da-tou-cai-mai-mai.md)
-  * [PCR赛跑](yu-le-you-xi-gong-neng/pcr-sai-pao.md)
   * [涩涩](yu-le-you-xi-gong-neng/se-se.md)
   * [🧪 AI绘图](yu-le-you-xi-gong-neng/ai-hui-tu.md)
   * [表情包生成器合集](yu-le-you-xi-gong-neng/biao-qing-bao-sheng-cheng-qi-he-ji.md)
