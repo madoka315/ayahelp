@@ -8,7 +8,7 @@
 
 </details>
 
-#### 该服务默认<mark style="color:green;">启用</mark>；不可开关
+#### 该服务默认<mark style="color:green;">启用</mark>
 
 | 指令示例        | 功能说明       | 备注               |
 | ----------- | ---------- | ---------------- |
