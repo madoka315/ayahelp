@@ -1,8 +1,8 @@
 # Table of contents
 
-* [🎉 欢迎使用Aya](README.md)
-* [💰 赞助计划&费用](zan-zhu-ji-hua-fei-yong.md)
-* [📐 功能开关与反馈](gong-neng-kai-guan-yu-fan-kui.md)
+* [🎉 欢迎使用 Aya](README.md)
+* [💰 赞助计划& 费用](zan-zhu-ji-hua-fei-yong.md)
+* [📐 功能开关& 问题反馈](gong-neng-kai-guan-wen-ti-fan-kui.md)
 * [群管理](qun-guan-li.md)
 * [查询&助手功能](cha-xun-zhu-shou-gong-neng/README.md)
   * [图片来源搜索](cha-xun-zhu-shou-gong-neng/tu-pian-lai-yuan-sou-suo.md)
@@ -71,5 +71,5 @@
   * [可可萝印章](yu-le-you-xi-gong-neng/ke-ke-luo-yin-zhang.md)
   * [龙图与猫猫图](yu-le-you-xi-gong-neng/long-tu-yu-mao-mao-tu.md)
 * [公会战功能](gong-hui-zhan-gong-neng.md)
-* [❤ 致谢](zhi-xie.md)
+* [❤️ 致谢](zhi-xie.md)
 * [📒 Aya 更新历史](aya-geng-xin-li-shi.md)
